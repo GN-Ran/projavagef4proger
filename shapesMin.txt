@@ -1,0 +1,124 @@
+<shapes>
+<!-- Timer Intermediate -->
+<shape name="timer" aspect="fixed">
+	<foreground>
+        <ellipse x="10" y="10" w="80" h="80"/>
+   		<stroke/>
+   		<path>
+   			<move x="10" y="50"/>
+   			<line x="16" y="50"/>
+  			<move x="50" y="10"/>
+  			<line x="50" y="16"/>
+  			<move x="29" y="16"/>
+  			<line x="32" y="21"/>
+  			<move x="71" y="16"/>
+  			<line x="68" y="21"/>
+  			<move x="16" y="29"/>
+  			<line x="21" y="32"/>
+  			<move x="16" y="71"/>
+  			<line x="21" y="68"/>
+   			<move x="90" y="50"/>
+   			<line x="84" y="50"/>
+  			<move x="50" y="90"/>
+  			<line x="50" y="84"/>
+  			<move x="71" y="84"/>
+  			<line x="68" y="79"/>
+  			<move x="29" y="84"/>
+  			<line x="32" y="79"/>
+  			<move x="84" y="71"/>
+  			<line x="79" y="68"/>
+  			<move x="84" y="29"/>
+  			<line x="79" y="32"/>
+  			<move x="50" y="50"/>
+  			<line x="52" y="17"/>
+  			<move x="50" y="50"/>
+  			<line x="70" y="50"/>
+   		</path>
+   		<stroke/>
+	</foreground>
+</shape>
+<shape name="cross" aspect="fixed">
+	<foreground>
+		<strokecolor color="#000000"/>
+		<strokewidth width="6"/>
+		<linecap cap="round"/>
+		<path crisp="0">
+			<move x="25" y="25"/>
+			<line x="75" y="75"/>
+		</path>
+		<stroke/>
+		<path>
+			<move x="75" y="25"/>
+			<line x="25" y="75"/>
+		</path>
+		<stroke/>
+	</foreground>
+</shape>
+<!-- Electronics - Transitors - MOSFET_P_CH_DEP -->
+<shape name="MOSFET_P_CH_DEP" aspect="fixed">
+	<connections>
+		<constraint x="0.8" y="0" perimeter="0"/>
+		<constraint x="0.8" y="1" perimeter="0"/>
+		<constraint x="0.1" y="0.5" perimeter="0"/>
+	</connections>
+	<foreground>
+		<strokewidth width = "4"/>
+  		<path crisp="1">
+  			<move x="10" y="50"/>
+  			<line x="40" y="50"/>
+  			<move x="40" y="20"/>
+  			<line x="40" y="80"/>
+  			<move x="50" y="10"/>
+  			<line x="50" y="90"/>
+  			<move x="50" y="20"/>
+  			<line x="80" y="20"/>
+  			<line x="80" y="0"/>
+  			<move x="50" y="50"/>
+  			<line x="80" y="50"/>
+  			<line x="80" y="100"/>
+  			<move x="50" y="80"/>
+  			<line x="80" y="80"/>
+  		</path>
+  		<stroke/>
+  		<path>
+  			<move x="80" y="50"/>
+  			<line x="72" y="46"/>
+  			<line x="72" y="54"/>
+  			<line x="80" y="50"/>
+  		</path>
+  		<fillstroke/>
+  		<ellipse x="78" y="78" w="4" h="4"/>
+  		<fillstroke/>
+	</foreground>
+</shape>
+<shape name="gate" aspect="fixed">
+	<connections>
+		<constraint x="0.1" y="0.1" perimeter="0"/>
+		<constraint x="0.1" y="0.9" perimeter="0"/>
+		<constraint x="0.9" y="0.5" perimeter="0"/>
+		<constraint x="0.9" y="0.7" perimeter="0"/>
+	</connections>
+	<foreground>
+		<rect x="0" y="0" w="20" h="20" crisp="1"/>
+		<fillstroke/>
+		<rect x="0" y="80" w="20" h="20" crisp="1"/>
+		<fillstroke/>
+		<fillcolor color="#ff0000"/>
+		<rect x="80" y="40" w="20" h="20" crisp="1"/>
+		<fillstroke/>
+		<fillcolor color="#00ff00"/>
+		<roundrect x="80" y="60" w="20" h="20" crisp="1"/>
+		<fillstroke/>
+		<path crisp="1">
+			<move x="20" y="10"/>
+			<line x="90" y="10"/>
+			<line x="90" y="40"/>
+			<move x="20" y="90"/>
+			<line x="50" y="90"/>
+			<line x="50" y="70"/>
+			<line x="80" y="70"/>
+		</path>
+		<stroke/>
+	</foreground>
+</shape>
+</shapes>

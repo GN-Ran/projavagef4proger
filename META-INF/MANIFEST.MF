@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Gef4
+Bundle-SymbolicName: com.bmstu.coursework.gef4
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: BMSTU
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.gef4.common;bundle-version="1.1.0",
+ org.eclipse.gef4.fx;bundle-version="1.0.1",
+ org.eclipse.gef4.geometry;bundle-version="1.0.1"
